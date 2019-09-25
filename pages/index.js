@@ -2,25 +2,22 @@
     import Link from 'next/link';
 
 
-const PostLink = props => (
-    <li>
-        {/* <Link href={`/post?title=${props.title}`}> Dynamic but not flexible */}
-        <Link href="/p/[id]" as={`/p/${props.id}`}>
-            <a> { props.id } </a>
-        </Link>
-    </li>
-)
+const Index = props => (
+    <Layout>
+        <h1> Batman tv shows</h1>
+        <ul>
+            {props.shows.map(show => (
+                <li key={show.id}>
+                    <Link href="/p/[id]" as={`/p/${show.id}`}>
+                        <a>{show.name}</a>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    </Layout>
+);
 
-export default function BLog() {
-    return (
-        <Layout>
-            <h1>Batman Tv Shows</h1>
-            <ul>
-                <PostLink id="hello-next.js" />
-                <PostLink id="learn-nextjs" />
-                <PostLink id="deploy-nextjs" />
-            </ul>
-        </Layout>
-    )
-}
 
+
+
+export default Index;
