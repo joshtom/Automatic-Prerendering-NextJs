@@ -1,5 +1,6 @@
     import Layout from '../comps/MyLayout';
     import Link from 'next/link';
+    import fetch from 'isomorphic-unfetch';
 
 
 const Index = props => (
@@ -22,7 +23,11 @@ Index.getInitialProps = async function() {
     const data = await res.json();
 
     console.log(`Show the data fetched. Count ${data.length}`);
-}
+
+    return {
+        shows: data.map(entry => entry.show)
+    };
+};
 
 
 
