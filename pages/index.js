@@ -1,12 +1,25 @@
-import Layout from '../comps/MyLayout';
+    import Layout from '../comps/MyLayout';
+    import Link from 'next/link';
 
 
-const Index = () => (
-    <div>
+const PostLink = props => (
+    <li>
+        <Link href={`/post?title=${props.title}`}>
+            <a> { props.title } </a>
+        </Link>
+    </li>
+)
+
+export default function BLog() {
+    return (
         <Layout>
-        <p>Hello Next.js</p>
+            <h1>My Blog</h1>
+            <ul>
+                <PostLink title="Hello next.js" />
+                <PostLink title="Next Js is awesome" />
+                <PostLink title="Deploy apps with Zeit" />
+            </ul>
         </Layout>
-    </div>
-);
+    )
+}
 
-export default Index;
