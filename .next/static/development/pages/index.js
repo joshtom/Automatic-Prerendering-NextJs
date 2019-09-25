@@ -10149,21 +10149,21 @@ function BLog() {
     },
     __self: this
   }, __jsx(PostLink, {
-    id: "Hello next.js",
+    id: "hello-next.js",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
   }), __jsx(PostLink, {
-    id: "Next Js is awesome",
+    id: "learn-nextjs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
   }), __jsx(PostLink, {
-    id: "Deploy apps with Zeit",
+    id: "deploy-nextjs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21

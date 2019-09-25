@@ -16,9 +16,9 @@ export default function BLog() {
         <Layout>
             <h1>My Blog</h1>
             <ul>
-                <PostLink id="Hello next.js" />
-                <PostLink id="Next Js is awesome" />
-                <PostLink id="Deploy apps with Zeit" />
+                <PostLink id="hello-next.js" />
+                <PostLink id="learn-nextjs" />
+                <PostLink id="deploy-nextjs" />
             </ul>
         </Layout>
     )
