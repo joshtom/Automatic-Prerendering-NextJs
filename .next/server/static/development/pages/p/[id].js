@@ -1895,7 +1895,7 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 /*!*************************!*\
   !*** ./pages/p/[id].js ***!
   \*************************/
-/*! no exports provided */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1937,6 +1937,20 @@ const Post = props => __jsx(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["defaul
   },
   __self: undefined
 }));
+
+Post.getInitialProps = async function (context) {
+  const {
+    id
+  } = context.query;
+  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()(`https://api.tvmaze.com/shows/${id}`);
+  const show = await res.json();
+  console.log(`Fetched show: ${show.name}`);
+  return {
+    show
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Post);
 
 /***/ }),
 
