@@ -4,8 +4,9 @@
 
 const PostLink = props => (
     <li>
-        <Link href={`/post?title=${props.title}`}>
-            <a> { props.title } </a>
+        {/* <Link href={`/post?title=${props.title}`}> Dynamic but not flexible */}
+        <Link href="/p/[id]" as={`/p/${props.id}`}>
+            <a> { props.id } </a>
         </Link>
     </li>
 )
@@ -15,9 +16,9 @@ export default function BLog() {
         <Layout>
             <h1>My Blog</h1>
             <ul>
-                <PostLink title="Hello next.js" />
-                <PostLink title="Next Js is awesome" />
-                <PostLink title="Deploy apps with Zeit" />
+                <PostLink id="Hello next.js" />
+                <PostLink id="Next Js is awesome" />
+                <PostLink id="Deploy apps with Zeit" />
             </ul>
         </Layout>
     )
