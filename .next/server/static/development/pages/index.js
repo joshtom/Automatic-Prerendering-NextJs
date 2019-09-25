@@ -1947,7 +1947,7 @@ function BLog() {
       lineNumber: 17
     },
     __self: this
-  }, "My Blog"), __jsx("ul", {
+  }, "Batman Tv Shows"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18

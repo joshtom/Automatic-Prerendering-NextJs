@@ -14,7 +14,7 @@ const PostLink = props => (
 export default function BLog() {
     return (
         <Layout>
-            <h1>My Blog</h1>
+            <h1>Batman Tv Shows</h1>
             <ul>
                 <PostLink id="hello-next.js" />
                 <PostLink id="learn-nextjs" />
