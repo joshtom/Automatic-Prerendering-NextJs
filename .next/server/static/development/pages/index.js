@@ -1952,6 +1952,12 @@ const Index = props => __jsx(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["defau
   __self: undefined
 }, show.name))))));
 
+Index.getInitialProps = async function () {
+  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
+  const data = await res.json();
+  console.log(`Show the data fetched. Count ${data.length}`);
+};
+
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
