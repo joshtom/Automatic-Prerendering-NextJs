@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{DpAU:function(n,o,s){(window.__NEXT_P=window.__NEXT_P||[]).push(["/next.config",function(){return s("FsEE")}])},FsEE:function(n,o){n.exports={target:"serverless"}}},[["DpAU",1]]]);

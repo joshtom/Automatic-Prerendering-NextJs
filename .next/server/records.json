@@ -8,7 +8,8 @@
       "multi next/dist/pages/_app": 4,
       "multi next/dist/pages/_error": 5,
       "multi next/dist/pages/_document": 6,
-      "multi private-next-pages/agent.js": 7
+      "multi private-next-pages/agent.js": 7,
+      "multi private-next-pages/next.config.js": 8
     },
     "usedIds": {
       "0": 0,
@@ -18,7 +19,8 @@
       "4": 4,
       "5": 5,
       "6": 6,
-      "7": 7
+      "7": 7,
+      "8": 8
     }
   },
   "chunks": {
@@ -59,18 +61,28 @@
       "static/07L1VQVYc5TLmi3Znsox3/pages/agent.js": 4,
       "static/07L1VQVYc5TLmi3Znsox3/pages/index.js": 5,
       "static/07L1VQVYc5TLmi3Znsox3/pages/p/[id].js": 6,
-      "static/07L1VQVYc5TLmi3Znsox3/pages/post.js": 15
+      "static/07L1VQVYc5TLmi3Znsox3/pages/post.js": 15,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/_app.js": 7,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/_document.js": 8,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/_error.js": 9,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/about.js": 10,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/agent.js": 11,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/index.js": 12,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/next.config.js": 13,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/p/[id].js": 14,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/post.js": 16
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      15,
-      2,
-      3,
-      4,
-      5,
-      6
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      7,
+      8,
+      9
     ]
   }
 }

@@ -39,20 +39,29 @@
       "static/07L1VQVYc5TLmi3Znsox3/pages/agent.js": 5,
       "static/07L1VQVYc5TLmi3Znsox3/pages/index.js": 6,
       "static/07L1VQVYc5TLmi3Znsox3/pages/p/[id].js": 7,
-      "static/07L1VQVYc5TLmi3Znsox3/pages/post.js": 16
+      "static/07L1VQVYc5TLmi3Znsox3/pages/post.js": 16,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/_app.js": 9,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/_error.js": 10,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/about.js": 11,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/agent.js": 12,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/index.js": 13,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/next.config.js": 14,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/p/[id].js": 15,
+      "static/5cMMWVu5VyqpkHWva1Ova/pages/post.js": 17
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      16,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      8,
+      9
     ]
   }
 }

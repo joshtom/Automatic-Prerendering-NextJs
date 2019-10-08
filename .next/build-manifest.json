@@ -31,6 +31,10 @@
       "static/chunks/commons.65a41b8b3b53eb677e03.js",
       "static/runtime/main-4a38cc9f678d8dc51f4a.js"
     ],
+    "/next.config": [
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/runtime/main-4a38cc9f678d8dc51f4a.js"
+    ],
     "/p/[id]": [
       "static/runtime/webpack-035ac2b14bde147cb4a8.js",
       "static/chunks/commons.65a41b8b3b53eb677e03.js",
