@@ -7,7 +7,8 @@
       "multi private-next-pages/post.js": 3,
       "multi next/dist/pages/_app": 4,
       "multi next/dist/pages/_error": 5,
-      "multi next/dist/pages/_document": 6
+      "multi next/dist/pages/_document": 6,
+      "multi private-next-pages/agent.js": 7
     },
     "usedIds": {
       "0": 0,
@@ -16,7 +17,8 @@
       "3": 3,
       "4": 4,
       "5": 5,
-      "6": 6
+      "6": 6,
+      "7": 7
     }
   },
   "chunks": {
@@ -41,12 +43,29 @@
       "static/Y5WI22gEQNmdOBmMH4Cso/pages/about.js": 3,
       "static/Y5WI22gEQNmdOBmMH4Cso/pages/index.js": 4,
       "static/Y5WI22gEQNmdOBmMH4Cso/pages/p/[id].js": 5,
-      "static/Y5WI22gEQNmdOBmMH4Cso/pages/post.js": 6
+      "static/Y5WI22gEQNmdOBmMH4Cso/pages/post.js": 6,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/_app.js": 7,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/_document.js": 8,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/_error.js": 9,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/about.js": 10,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/agent.js": 11,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/index.js": 12,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/p/[id].js": 13,
+      "static/gcvcNlaS8KAvT7Av88g1Y/pages/post.js": 14,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/_app.js": 0,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/_document.js": 1,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/_error.js": 2,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/about.js": 3,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/agent.js": 4,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/index.js": 5,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/p/[id].js": 6,
+      "static/07L1VQVYc5TLmi3Znsox3/pages/post.js": 15
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      15,
       2,
       3,
       4,
